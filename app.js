@@ -93,6 +93,6 @@ form.addEventListener("submit", async (event) => {
     // 3. Render items to the DOM
     render(items, query);
   } catch (error) {
-    console.error("Error fetching data:", error);
+    console.error("Error fetching user data:", error);
   }
 });
